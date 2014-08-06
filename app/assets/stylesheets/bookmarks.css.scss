@@ -1,0 +1,49 @@
+// Place all the styles related to the Bookmarks controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+table {
+  width: 100%;
+  margin: 0 auto;
+  font-size: 75%;
+  border-collapse: collapse;
+}
+th {
+  width: 10%;
+  background: #e6e6e6;
+  color: #000;
+}
+td {
+  width: 30%;
+}
+.fig {
+  width: 100%;
+  height: auto;
+}
+
+@media only screen and (max-width:480px){
+  
+
+table {
+  border: none;
+}
+tr {
+  display:block;
+  margin-bottom: 10px;
+}
+th {
+  display:block;
+  width: 95%;
+  margin: 0 auto 10px;
+  background: #000000;
+  color: #ffffff;
+  border:none;
+  border-radius: 3px;
+}
+td {
+  display: list-item;
+  width: 90%;
+  margin-left: 20px;
+  border:none;
+}
+}
+
